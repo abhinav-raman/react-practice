@@ -3,7 +3,7 @@ import { useContext, useEffect, useState, Fragment } from "react";
 import classes from "./App.module.css";
 
 import Profile from "./components/Profile/Profile";
-import ThemeContext, { ThemeContextProvider } from "./context/theme-context";
+import ThemeContext from "./context/theme-context";
 
 const BASE_URL = "https://rickandmortyapi.com/api";
 
